@@ -1,7 +1,7 @@
 # xtpublic
 This repository is for my previous clients which I provied consulting services.
 It was hosted on bitbucket before 2021. Since the system is pretty stable, I will
-update compiled library quarterly.
+update it quarterly if there are no critical bugs.
 
 At the mean time, only python part is made public. I will make some of the
 c++ source codes public later.
