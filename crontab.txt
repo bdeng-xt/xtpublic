@@ -1,0 +1,14 @@
+SHELL=/bin/bash
+
+##This is just an example, please modifiy according to your requirements
+##use "crontab -e" to edit your cron jobs
+##
+45 15 * 1-12 1-5 /home/app/deploy/kill_xtapp.sh >> /home/app/logs/cron.log 2>&1
+35 3 * 1-12 1-6 /home/app/deploy/kill_xtapp.sh >> /home/app/logs/cron.log 2>&1
+
+50 8 * 1-12 1-5 /home/app/deploy/start_xtapp_ctpall.sh >> /home/app/logs/cron.log 2>&1
+50 20 * 1-12 1-5 /home/app/deploy/start_xtapp_ctpall.sh >> /home/app/logs/cron.log 2>&1
+
+
+
+
