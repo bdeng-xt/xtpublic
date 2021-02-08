@@ -1,5 +1,5 @@
 # xtpublic
-This repository is for my previous clients which I provied consulting services.
+This repository is for my previous clients which I provided consulting services.
 It was hosted on bitbucket before 2021. Since the system is pretty stable, I will
 update it quarterly if there are no critical bugs.
 
